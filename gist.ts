@@ -2,7 +2,7 @@ import { execFileSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { unlinkSync, writeFileSync } from "node:fs";
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
 function extractLastAssistantText(sessionManager: any): string | undefined {
 	const messages = sessionManager.buildSessionContext()?.messages ?? [];
