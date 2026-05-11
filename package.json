@@ -1,0 +1,7 @@
+{
+  "name": "@devgertschi/pi-gist-extension",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
